@@ -1,0 +1,15 @@
+#!/bin/sh
+
+while read -r box rest; do
+    boxes="$boxes $box"
+done < boxes.txt
+
+for box in $boxes; do
+    printf "$box: "
+
+    if [ ! -f ".$box.config" ]; then
+        vagrant ssh-config "$box" >| ".$box.config"
+    fi
+
+    ssh -q -t -F ."$box".config "$box" "$@"
+done
