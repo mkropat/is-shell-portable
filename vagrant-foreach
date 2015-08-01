@@ -1,15 +1,31 @@
 #!/bin/sh
 
+script="$1"
+shift
+
+if [ -z "$script" ]; then
+    echo "Must specify a script to run" >&2
+    exit 1
+fi
+
 while read -r box rest; do
     boxes="$boxes $box"
 done < boxes.txt
 
+mkdir -p "$script-results"
+
+
 for box in $boxes; do
-    printf "$box: "
+    echo "### $box ###"
 
     if [ ! -f ".$box.config" ]; then
         vagrant ssh-config "$box" >| ".$box.config"
     fi
 
-    ssh -q -t -F ."$box".config "$box" "$@"
+    scp -F ".$box.config" "$script" "$box":
+    if [ -n "$@" ]; then
+        scp -F ".$box.config" "$@" "$box":
+    fi
+
+    ssh -F ."$box".config "$box" /bin/sh "$script" >| "$script-results/$box.log"
 done
