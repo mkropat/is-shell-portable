@@ -1,8 +1,14 @@
 #!/bin/sh
 
-output_dir="gh-pages/_data"
+if [ $# -eq 0 ] || [ ! -f "$1" ]; then
+    echo "Must specify a json commands file" >&2
+    exit 1
+fi
 
-jq -r 'flatten[]' cmds.json >|cmds.txt
+output_dir="gh-pages/_data"
+outfile="$output_dir/$(basename -- "$1")"
+
+jq -r 'flatten[]' "$1" >|cmds.txt
 dos2unix cmds.txt
 
 ./vagrant-foreach caniuse.sh cmds.txt
@@ -28,6 +34,6 @@ jq  --slurpfile platforms "$output_dir/platforms.json" \
             ] |
             add
     )' \
-    cmds.json >|"$output_dir/cmd-support.json"
+    "$1" >|"$outfile"
 
 rm -f -- lookup.json

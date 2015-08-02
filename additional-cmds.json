@@ -1,0 +1,26 @@
+{
+  "Built-in": [
+    "local"
+  ],
+  "Shell": [
+    "ash",
+    "bash",
+    "csh",
+    "dash",
+    "ksh",
+    "ksh93",
+    "tcsh",
+    "zsh"
+  ],
+  "Scripting Language": [
+    "perl",
+    "python",
+    "python2",
+    "python3",
+    "ruby"
+  ],
+  "Misc": [
+    "mktemp",
+    "stat"
+  ]
+}
