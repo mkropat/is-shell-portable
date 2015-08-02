@@ -6,7 +6,9 @@ layout: default
 
   <h1 class="page-heading">Available Commands By Platform</h1>
 
-  {% for section in site.data.cmd-support %}
+  <h2>Official POSIX Commands</h4>
+
+  {% for section in site.data.posix-cmds %}
   {% assign section_name = section[0] %}
   <h4>{{ section_name }}</h4>
   <table class="portable-support">
@@ -45,4 +47,47 @@ layout: default
     </tbody>
   </table>
   {% endfor %}
+
+  <h2>Additional Useful Commands</h2>
+
+  {% for section in site.data.additional-cmds %}
+  {% assign section_name = section[0] %}
+  <h4>{{ section_name }}</h4>
+  <table class="portable-support">
+    <thead>
+      <tr>
+        <th></th>
+        {% for platform in site.data.platforms %}
+          <th class="platform">{{ platform }}</th>
+        {% endfor %}
+      </tr>
+    </thead>
+
+    <tbody>
+
+      {% for command in section[1] %}
+      <tr>
+        <td class="command"><tt>{{ command["command"] }}</tt></td>
+
+        {% for platform in site.data.platforms %}
+
+        {% case command[platform] %}
+        {% when 'no' %}
+        <td class="unsupported">
+        {% else %}
+        <td class="supported">
+        {% endcase %}
+
+          {{ command[platform] }}
+
+        </td>
+
+        {% endfor %}
+      </tr>
+      {% endfor %}
+
+    </tbody>
+  </table>
+  {% endfor %}
+
 </div>
