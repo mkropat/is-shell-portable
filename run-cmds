@@ -1,13 +1,28 @@
 #!/bin/sh
 
 usage() {
-    echo "$0 COMMAND_FILE1 [COMMAND_FILE2]..."
+    echo "$0 [-l PLATFORM] COMMAND_FILE1 [COMMAND_FILE2]..."
 }
 
 main() {
+    while getopts l: opt; do
+        case "$opt" in
+            l) local_platform="$OPTARG" ;;
+        esac
+    done
+    shift $(( OPTIND - 1))
+    OPTIND=1
+
     if ! (( $# )); then
         usage >&2
         exit 1
+    fi
+
+    if [ -n "$local_platform" ]; then
+        _execute() {
+            mkdir -p "$1"
+            /bin/sh caniuse.sh >|"$1/${local_platform}.csv"
+        }
     fi
 
     for command_file; do
@@ -15,20 +30,26 @@ main() {
     done
 }
 
+_execute() {
+    util/vagrant-foreach "$1" caniuse.sh "$2"
+}
+
 
 run_cmds() {
-    outfile="$output_dir/$(basename -- "$1")"
+    filename=$(basename -- "$1")
+    result_dir="results/${filename%.*}"
+    outfile="$output_dir/$filename"
 
     jq -r 'flatten[]' "$1" >|cmds.txt
     dos2unix cmds.txt
 
-    util/vagrant-foreach caniuse.sh cmds.txt
+    _execute "$result_dir" cmds.txt
 
     rm -f -- cmds.txt
 
-    util/csv2json caniuse.sh-results/*.csv
+    util/csv2json "$result_dir"/*.csv
 
-    util/combine-json-by-name caniuse.sh-results/*.json |
+    util/combine-json-by-name "$result_dir"/*.json |
         jq 'with_entries(
             .value[] |= { key:.cmd, value:.exists } |
             .value |= from_entries)' \

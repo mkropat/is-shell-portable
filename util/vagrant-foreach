@@ -1,9 +1,10 @@
 #!/bin/sh
 
-script="$1"
+results_dir="$1"
 shift
 
-results_dir="$script-results"
+script="$1"
+shift
 
 if [ -z "$script" ]; then
     echo "Must specify a script to run" >&2
