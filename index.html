@@ -4,9 +4,13 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Available Commands By Platform</h1>
+  <p>A survey of what shell commands are available from <tt>/bin/sh</tt> on
+  differnet platforms.</p>
 
   <h2>Official POSIX Commands</h4>
+
+  <p>This list of POSIX commands comes from the <a
+    href="http://shellhaters.org/">Shell Hater's Handbook</a>.</p>
 
   {% for section in site.data.posix-cmds %}
   {% assign section_name = section[0] %}
