@@ -13,9 +13,8 @@ layout: default
     <thead>
       <tr>
         <th></th>
-        {% for box in site.data.boxes %}
-          {% assign box_name = box[0] %}
-          <th class="platform">{{ box_name }}</th>
+        {% for platform in site.data.platforms %}
+          <th class="platform">{{ platform }}</th>
         {% endfor %}
       </tr>
     </thead>
@@ -26,17 +25,16 @@ layout: default
       <tr>
         <td class="command"><tt>{{ command["command"] }}</tt></td>
 
-        {% for box in site.data.boxes %}
-        {% assign box_name = box[0] %}
+        {% for platform in site.data.platforms %}
 
-        {% case command[box_name] %}
+        {% case command[platform] %}
         {% when 'no' %}
         <td class="unsupported">
         {% else %}
         <td class="supported">
         {% endcase %}
 
-          {{ command[box_name] }}
+          {{ command[platform] }}
 
         </td>
 
