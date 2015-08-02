@@ -6,7 +6,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": ":",
@@ -14,7 +14,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "break",
@@ -22,7 +22,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "continue",
@@ -30,7 +30,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "eval",
@@ -38,7 +38,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "exec",
@@ -46,7 +46,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "exit",
@@ -54,7 +54,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "export",
@@ -62,7 +62,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "readonly",
@@ -70,7 +70,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "return",
@@ -78,7 +78,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "set",
@@ -86,7 +86,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "shift",
@@ -94,7 +94,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "times",
@@ -102,7 +102,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "yes",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "trap",
@@ -110,7 +110,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "unset",
@@ -118,7 +118,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     }
   ],
   "Programming": [
@@ -128,7 +128,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "bc",
@@ -136,7 +136,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "command",
@@ -144,7 +144,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "yes",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "date",
@@ -152,7 +152,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "env",
@@ -160,7 +160,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "expr",
@@ -168,7 +168,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "false",
@@ -176,7 +176,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "getopts",
@@ -184,7 +184,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "hash",
@@ -192,7 +192,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "yes",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "fc",
@@ -200,7 +200,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "no",
       "solaris-v11": "yes",
-      "ubuntu-v14-04": "no"
+      "ubuntu-v14.04": "no"
     },
     {
       "command": "id",
@@ -208,7 +208,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "locale",
@@ -216,7 +216,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "localedef",
@@ -224,7 +224,7 @@
       "freebsd-v10": "no",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "logger",
@@ -232,7 +232,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "logname",
@@ -240,7 +240,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "newgrp",
@@ -248,7 +248,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "pathchk",
@@ -256,7 +256,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "pwd",
@@ -264,7 +264,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "read",
@@ -272,7 +272,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "sh",
@@ -280,7 +280,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "sleep",
@@ -288,7 +288,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "test",
@@ -296,7 +296,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "time",
@@ -304,7 +304,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "tput",
@@ -312,7 +312,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "true",
@@ -320,7 +320,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "type",
@@ -328,7 +328,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "yes",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "unalias",
@@ -336,7 +336,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "uname",
@@ -344,7 +344,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "write",
@@ -352,7 +352,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "xargs",
@@ -360,7 +360,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     }
   ],
   "Text": [
@@ -370,7 +370,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "cat",
@@ -378,7 +378,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "cksum",
@@ -386,7 +386,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "cmp",
@@ -394,7 +394,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "comm",
@@ -402,7 +402,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "csplit",
@@ -410,7 +410,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "cut",
@@ -418,7 +418,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "echo",
@@ -426,7 +426,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "ed",
@@ -434,7 +434,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "ex",
@@ -442,7 +442,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "expand",
@@ -450,7 +450,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "fold",
@@ -458,7 +458,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "grep",
@@ -466,7 +466,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "head",
@@ -474,7 +474,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "join",
@@ -482,7 +482,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "more",
@@ -490,7 +490,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "nl",
@@ -498,7 +498,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "od",
@@ -506,7 +506,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "paste",
@@ -514,7 +514,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "printf",
@@ -522,7 +522,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "sed",
@@ -530,7 +530,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "sort",
@@ -538,7 +538,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "split",
@@ -546,7 +546,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "tail",
@@ -554,7 +554,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "tr",
@@ -562,7 +562,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "tsort",
@@ -570,7 +570,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "unexpand",
@@ -578,7 +578,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "uniq",
@@ -586,7 +586,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "wc",
@@ -594,7 +594,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     }
   ],
   "Files": [
@@ -604,7 +604,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "cal",
@@ -612,7 +612,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "cd",
@@ -620,7 +620,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "chgrp",
@@ -628,7 +628,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "chmod",
@@ -636,7 +636,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "chown",
@@ -644,7 +644,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "cp",
@@ -652,7 +652,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "dd",
@@ -660,7 +660,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "df",
@@ -668,7 +668,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "dirname",
@@ -676,7 +676,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "du",
@@ -684,7 +684,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "file",
@@ -692,7 +692,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "find",
@@ -700,7 +700,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "fuser",
@@ -708,7 +708,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "no",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "link",
@@ -716,7 +716,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "no",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "ln",
@@ -724,7 +724,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "ls",
@@ -732,7 +732,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "mkdir",
@@ -740,7 +740,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "mkfifo",
@@ -748,7 +748,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "mv",
@@ -756,7 +756,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "rm",
@@ -764,7 +764,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "rmdir",
@@ -772,7 +772,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "tee",
@@ -780,7 +780,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "touch",
@@ -788,7 +788,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "unlink",
@@ -796,7 +796,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "no",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     }
   ],
   "Processes": [
@@ -806,7 +806,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "fg",
@@ -814,7 +814,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "kill",
@@ -822,7 +822,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "nice",
@@ -830,7 +830,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "nohup",
@@ -838,7 +838,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "yes",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "ps",
@@ -846,7 +846,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "renice",
@@ -854,7 +854,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "wait",
@@ -862,7 +862,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     }
   ],
   "Job Control": [
@@ -872,7 +872,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "batch",
@@ -880,7 +880,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "jobs",
@@ -888,7 +888,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     }
   ],
   "Development": [
@@ -898,7 +898,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "asa",
@@ -906,7 +906,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "no"
+      "ubuntu-v14.04": "no"
     },
     {
       "command": "c99",
@@ -914,7 +914,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "no",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "cflow",
@@ -922,7 +922,7 @@
       "freebsd-v10": "no",
       "openwrt-v12": "no",
       "solaris-v11": "no",
-      "ubuntu-v14-04": "no"
+      "ubuntu-v14.04": "no"
     },
     {
       "command": "ctags",
@@ -930,7 +930,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "no"
+      "ubuntu-v14.04": "no"
     },
     {
       "command": "cxref",
@@ -938,7 +938,7 @@
       "freebsd-v10": "no",
       "openwrt-v12": "no",
       "solaris-v11": "no",
-      "ubuntu-v14-04": "no"
+      "ubuntu-v14.04": "no"
     },
     {
       "command": "diff",
@@ -946,7 +946,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "fort77",
@@ -954,7 +954,7 @@
       "freebsd-v10": "no",
       "openwrt-v12": "no",
       "solaris-v11": "no",
-      "ubuntu-v14-04": "no"
+      "ubuntu-v14.04": "no"
     },
     {
       "command": "gencat",
@@ -962,7 +962,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "no",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "iconv",
@@ -970,7 +970,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "lex",
@@ -978,7 +978,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "no"
+      "ubuntu-v14.04": "no"
     },
     {
       "command": "m4",
@@ -986,7 +986,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "no"
+      "ubuntu-v14.04": "no"
     },
     {
       "command": "make",
@@ -994,7 +994,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "man",
@@ -1002,7 +1002,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "nm",
@@ -1010,7 +1010,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "patch",
@@ -1018,7 +1018,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "strings",
@@ -1026,7 +1026,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "strip",
@@ -1034,7 +1034,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "vi",
@@ -1042,7 +1042,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "yacc",
@@ -1050,7 +1050,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "no"
+      "ubuntu-v14.04": "no"
     }
   ],
   "Admin": [
@@ -1060,7 +1060,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "getconf",
@@ -1068,7 +1068,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "ulimit",
@@ -1076,7 +1076,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "umask",
@@ -1084,7 +1084,7 @@
       "freebsd-v10": "built-in",
       "openwrt-v12": "built-in",
       "solaris-v11": "built-in",
-      "ubuntu-v14-04": "built-in"
+      "ubuntu-v14.04": "built-in"
     },
     {
       "command": "who",
@@ -1092,7 +1092,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     }
   ],
   "Terminal": [
@@ -1102,7 +1102,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "tabs",
@@ -1110,7 +1110,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "tty",
@@ -1118,7 +1118,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     }
   ],
   "Comm": [
@@ -1128,7 +1128,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "no"
+      "ubuntu-v14.04": "no"
     },
     {
       "command": "mesg",
@@ -1136,7 +1136,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "talk",
@@ -1144,7 +1144,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "no"
+      "ubuntu-v14.04": "no"
     },
     {
       "command": "uucp",
@@ -1152,7 +1152,7 @@
       "freebsd-v10": "no",
       "openwrt-v12": "no",
       "solaris-v11": "no",
-      "ubuntu-v14-04": "no"
+      "ubuntu-v14.04": "no"
     },
     {
       "command": "uudecode",
@@ -1160,7 +1160,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "no"
+      "ubuntu-v14.04": "no"
     },
     {
       "command": "uuencode",
@@ -1168,7 +1168,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "no"
+      "ubuntu-v14.04": "no"
     },
     {
       "command": "uustat",
@@ -1176,7 +1176,7 @@
       "freebsd-v10": "no",
       "openwrt-v12": "no",
       "solaris-v11": "no",
-      "ubuntu-v14-04": "no"
+      "ubuntu-v14.04": "no"
     },
     {
       "command": "uux",
@@ -1184,7 +1184,7 @@
       "freebsd-v10": "no",
       "openwrt-v12": "no",
       "solaris-v11": "no",
-      "ubuntu-v14-04": "no"
+      "ubuntu-v14.04": "no"
     }
   ],
   "Compression": [
@@ -1194,7 +1194,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "no"
+      "ubuntu-v14.04": "no"
     },
     {
       "command": "pax",
@@ -1202,7 +1202,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "no"
+      "ubuntu-v14.04": "no"
     },
     {
       "command": "uncompress",
@@ -1210,7 +1210,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "no",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     },
     {
       "command": "zcat",
@@ -1218,7 +1218,7 @@
       "freebsd-v10": "command",
       "openwrt-v12": "command",
       "solaris-v11": "command",
-      "ubuntu-v14-04": "command"
+      "ubuntu-v14.04": "command"
     }
   ]
 }
