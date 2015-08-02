@@ -1,39 +1,55 @@
 #!/bin/sh
 
-if [ $# -eq 0 ] || [ ! -f "$1" ]; then
-    echo "Must specify a json commands file" >&2
-    exit 1
-fi
+usage() {
+    echo "$0 COMMAND_FILE1 [COMMAND_FILE2]..."
+}
+
+main() {
+    if ! (( $# )); then
+        usage >&2
+        exit 1
+    fi
+
+    for command_file; do
+        run_cmds "$command_file"
+    done
+}
+
+
+run_cmds() {
+    outfile="$output_dir/$(basename -- "$1")"
+
+    jq -r 'flatten[]' "$1" >|cmds.txt
+    dos2unix cmds.txt
+
+    ./vagrant-foreach caniuse.sh cmds.txt
+
+    rm -f -- cmds.txt
+
+    ./csv2json caniuse.sh-results/*.csv
+
+    ./combine-json-by-name caniuse.sh-results/*.json |
+        jq 'with_entries(
+            .value[] |= { key:.cmd, value:.exists } |
+            .value |= from_entries)' \
+        >|lookup.json
+
+    jq keys <lookup.json >| "$output_dir/platforms.json"
+
+    jq  --slurpfile platforms "$output_dir/platforms.json" \
+        --slurpfile lookup lookup.json \
+        'with_entries(
+            .value[] |= . as $val |
+                [{ command:. }] + [
+                    [$platforms[0][] | {key:., value:$lookup[0][.][$val]}] | from_entries
+                ] |
+                add
+        )' \
+        "$1" >|"$outfile"
+
+    rm -f -- lookup.json
+}
 
 output_dir="gh-pages/_data"
-outfile="$output_dir/$(basename -- "$1")"
 
-jq -r 'flatten[]' "$1" >|cmds.txt
-dos2unix cmds.txt
-
-./vagrant-foreach caniuse.sh cmds.txt
-
-rm -f -- cmds.txt
-
-./csv2json caniuse.sh-results/*.csv
-
-./combine-json-by-name caniuse.sh-results/*.json |
-    jq 'with_entries(
-        .value[] |= { key:.cmd, value:.exists } |
-        .value |= from_entries)' \
-    >|lookup.json
-
-jq keys <lookup.json >| "$output_dir/platforms.json"
-
-jq  --slurpfile platforms "$output_dir/platforms.json" \
-    --slurpfile lookup lookup.json \
-    'with_entries(
-        .value[] |= . as $val |
-            [{ command:. }] + [
-                [$platforms[0][] | {key:., value:$lookup[0][.][$val]}] | from_entries
-            ] |
-            add
-    )' \
-    "$1" >|"$outfile"
-
-rm -f -- lookup.json
+main "$@"
