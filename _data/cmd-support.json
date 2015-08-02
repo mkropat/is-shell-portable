@@ -1,0 +1,1224 @@
+{
+  "Built-in": [
+    {
+      "command": ".",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": ":",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "break",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "continue",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "eval",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "exec",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "exit",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "export",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "readonly",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "return",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "set",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "shift",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "times",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "yes",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "trap",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "unset",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    }
+  ],
+  "Programming": [
+    {
+      "command": "alias",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "bc",
+      "centos-v7": "no",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "command",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "yes",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "date",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "env",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "expr",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "false",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "getopts",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "hash",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "yes",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "fc",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "no",
+      "solaris-v11": "yes",
+      "ubuntu-v14-04": "no"
+    },
+    {
+      "command": "id",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "locale",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "localedef",
+      "centos-v7": "command",
+      "freebsd-v10": "no",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "logger",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "logname",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "newgrp",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "pathchk",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "pwd",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "read",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "sh",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "sleep",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "test",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "time",
+      "centos-v7": "built-in",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "tput",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "true",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "type",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "yes",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "unalias",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "uname",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "write",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "xargs",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    }
+  ],
+  "Text": [
+    {
+      "command": "awk",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "cat",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "cksum",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "cmp",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "comm",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "csplit",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "cut",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "echo",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "ed",
+      "centos-v7": "no",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "ex",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "expand",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "fold",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "grep",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "head",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "join",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "more",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "nl",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "od",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "paste",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "printf",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "sed",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "sort",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "split",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "tail",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "tr",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "tsort",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "unexpand",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "uniq",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "wc",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    }
+  ],
+  "Files": [
+    {
+      "command": "basename",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "cal",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "cd",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "chgrp",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "chmod",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "chown",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "cp",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "dd",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "df",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "dirname",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "du",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "file",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "find",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "fuser",
+      "centos-v7": "no",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "no",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "link",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "no",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "ln",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "ls",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "mkdir",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "mkfifo",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "mv",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "rm",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "rmdir",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "tee",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "touch",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "unlink",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "no",
+      "ubuntu-v14-04": "command"
+    }
+  ],
+  "Processes": [
+    {
+      "command": "bg",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "fg",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "kill",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "nice",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "nohup",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "yes",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "ps",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "renice",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "wait",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    }
+  ],
+  "Job Control": [
+    {
+      "command": "at",
+      "centos-v7": "no",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "batch",
+      "centos-v7": "no",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "jobs",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    }
+  ],
+  "Development": [
+    {
+      "command": "ar",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "asa",
+      "centos-v7": "no",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "no"
+    },
+    {
+      "command": "c99",
+      "centos-v7": "no",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "no",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "cflow",
+      "centos-v7": "no",
+      "freebsd-v10": "no",
+      "openwrt-v12": "no",
+      "solaris-v11": "no",
+      "ubuntu-v14-04": "no"
+    },
+    {
+      "command": "ctags",
+      "centos-v7": "no",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "no"
+    },
+    {
+      "command": "cxref",
+      "centos-v7": "no",
+      "freebsd-v10": "no",
+      "openwrt-v12": "no",
+      "solaris-v11": "no",
+      "ubuntu-v14-04": "no"
+    },
+    {
+      "command": "diff",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "fort77",
+      "centos-v7": "no",
+      "freebsd-v10": "no",
+      "openwrt-v12": "no",
+      "solaris-v11": "no",
+      "ubuntu-v14-04": "no"
+    },
+    {
+      "command": "gencat",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "no",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "iconv",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "lex",
+      "centos-v7": "no",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "no"
+    },
+    {
+      "command": "m4",
+      "centos-v7": "no",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "no"
+    },
+    {
+      "command": "make",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "man",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "nm",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "patch",
+      "centos-v7": "no",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "strings",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "strip",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "vi",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "yacc",
+      "centos-v7": "no",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "no"
+    }
+  ],
+  "Admin": [
+    {
+      "command": "crontab",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "getconf",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "ulimit",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "umask",
+      "centos-v7": "built-in",
+      "freebsd-v10": "built-in",
+      "openwrt-v12": "built-in",
+      "solaris-v11": "built-in",
+      "ubuntu-v14-04": "built-in"
+    },
+    {
+      "command": "who",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    }
+  ],
+  "Terminal": [
+    {
+      "command": "stty",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "tabs",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "tty",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    }
+  ],
+  "Comm": [
+    {
+      "command": "mailx",
+      "centos-v7": "no",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "no"
+    },
+    {
+      "command": "mesg",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "talk",
+      "centos-v7": "no",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "no"
+    },
+    {
+      "command": "uucp",
+      "centos-v7": "no",
+      "freebsd-v10": "no",
+      "openwrt-v12": "no",
+      "solaris-v11": "no",
+      "ubuntu-v14-04": "no"
+    },
+    {
+      "command": "uudecode",
+      "centos-v7": "no",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "no"
+    },
+    {
+      "command": "uuencode",
+      "centos-v7": "no",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "no"
+    },
+    {
+      "command": "uustat",
+      "centos-v7": "no",
+      "freebsd-v10": "no",
+      "openwrt-v12": "no",
+      "solaris-v11": "no",
+      "ubuntu-v14-04": "no"
+    },
+    {
+      "command": "uux",
+      "centos-v7": "no",
+      "freebsd-v10": "no",
+      "openwrt-v12": "no",
+      "solaris-v11": "no",
+      "ubuntu-v14-04": "no"
+    }
+  ],
+  "Compression": [
+    {
+      "command": "compress",
+      "centos-v7": "no",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "no"
+    },
+    {
+      "command": "pax",
+      "centos-v7": "no",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "no"
+    },
+    {
+      "command": "uncompress",
+      "centos-v7": "no",
+      "freebsd-v10": "command",
+      "openwrt-v12": "no",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    },
+    {
+      "command": "zcat",
+      "centos-v7": "command",
+      "freebsd-v10": "command",
+      "openwrt-v12": "command",
+      "solaris-v11": "command",
+      "ubuntu-v14-04": "command"
+    }
+  ]
+}

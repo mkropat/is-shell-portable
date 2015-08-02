@@ -4,20 +4,41 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Available Commands By Platform</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <table>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+    <thead>
+      <tr>
+        <th>Command</th>
+        <th colspan="{{ site.data.boxes | size }}"></th>
+      </tr>
+    </thead>
+
+    <tbody>
+    {% for section in site.data.cmd-support %}
+      <tr>
+        {% assign section_name = section[0] %}
+        <th>{{ section_name }}</th>
+        {% for box in site.data.boxes %}
+          {% assign box_name = box[0] %}
+          <th>{{ box_name }}</th>
+        {% endfor %}
+      </tr>
+
+      {% for command in section[1] %}
+      <tr>
+        <td>{{ command["command"] }}</td>
+        {% for box in site.data.boxes %}
+        {% assign box_name = box[0] %}
+        <td>{{ command[box_name] }}</td>
+        {% endfor %}
+      </tr>
+      {% endfor %}
+
     {% endfor %}
-  </ul>
+    </tbody>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  </table>
 
 </div>
