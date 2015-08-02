@@ -41,7 +41,9 @@ run_cmds() {
     outfile="$output_dir/$filename"
 
     jq -r 'flatten[]' "$1" >|cmds.txt
-    dos2unix cmds.txt
+    if hash dos2unix 2>/dev/null; then
+        dos2unix cmds.txt
+    fi
 
     _execute "$result_dir" cmds.txt
 

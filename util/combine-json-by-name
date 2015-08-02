@@ -24,7 +24,7 @@ mktemp() {
     printf '%s/%s.%s\n' \
         "${TMPDIR:-${TMP:-/tmp}}" \
         "${1:-tmp}" \
-        "$(tr -dc 'a-zA-Z0-9' </dev/urandom | head -c 16)"
+        "$(LC_CTYPE=C tr -dc 'a-zA-Z0-9' </dev/urandom | head -c 16)"
 }
 
 main "$@"
