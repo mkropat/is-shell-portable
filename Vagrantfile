@@ -1,11 +1,12 @@
-boxes = File.readlines('boxes.txt').collect do |line|
-  parts = line.split(' ')
-  { :name => parts[0], :image => parts[1] }
+require 'json'
+
+boxes = JSON.parse(File.read('boxes.json')).collect do |k,v|
+  { :name => k, :image => v["image"] }
 end
 
 Vagrant.configure(2) do |config|
 
-  boxes.each_with_index do |box,i|
+  boxes.each do |box|
     config.vm.define box[:name] do |config|
 
       config.vm.box = box[:image]

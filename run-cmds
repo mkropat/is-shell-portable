@@ -1,0 +1,29 @@
+#!/bin/sh
+
+jq -r 'flatten[]' cmds.json >|cmds.txt
+dos2unix cmds.txt
+
+./vagrant-foreach caniuse.sh cmds.txt
+
+rm -f -- cmds.txt
+
+./csv2json caniuse.sh-results/*.csv
+
+./combine-json-by-name caniuse.sh-results/*.json |
+    jq 'with_entries(
+        .value[] |= { key:.cmd, value:.exists } |
+        .value |= from_entries)' \
+    >|lookup.json
+
+jq  --slurpfile boxes boxes.json \
+    --slurpfile lookup lookup.json \
+    'with_entries(
+        .value[] |= . as $val |
+            [{ command:. }] + [
+                [$boxes[0] | keys[] | {key:., value:$lookup[0][.][$val]}] | from_entries
+            ] |
+            add
+    )' \
+    cmds.json >|gh-pages/_data/cmd-support.json
+
+rm -f -- lookup.json

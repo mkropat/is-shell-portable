@@ -1,5 +1,0 @@
-centos chef/centos-7.0
-freebsd chef/freebsd-10.0
-openwrt hryamzik/openwrt.12.09.1
-solaris http://www.benden.us/vagrant/solaris-11.2.box
-ubuntu ubuntu/trusty64

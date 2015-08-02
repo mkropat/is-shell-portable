@@ -1,0 +1,39 @@
+#!/bin/sh
+
+main() {
+    for f; do
+        dir=$(dirname -- "$f")
+        filename=$(basename -- "$f")
+        case "$filename" in
+            *.csv) outfilename=${filename%.*}.json ;;
+            *)     outfilename=$filename ;;
+        esac
+
+        awk "$script" "$f" >|"$dir/$outfilename"
+    done
+}
+
+script='
+BEGIN {
+  FS=","
+}
+{
+  if (FNR == 1) {
+    for (i = 0; i <= NF; i++) {
+      fields[i] = $(i)
+    }
+  }
+  else {
+    printf "{ "
+
+    sep=""
+    for (i = 1; i <= NF; i++) {
+      printf sep "\"" fields[i] "\":\"" $(i) "\""
+      sep=", "
+    }
+
+    print " }"
+  }
+}'
+
+main "$@"

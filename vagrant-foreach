@@ -3,17 +3,20 @@
 script="$1"
 shift
 
+results_dir="$script-results"
+
 if [ -z "$script" ]; then
     echo "Must specify a script to run" >&2
     exit 1
 fi
 
+jq -r "keys[]" < boxes.json > boxes.txt
 while read -r box rest; do
     boxes="$boxes $box"
 done < boxes.txt
+rm -f -- boxes.txt
 
-mkdir -p "$script-results"
-
+mkdir -p "$results_dir"
 
 for box in $boxes; do
     echo "### $box ###"
@@ -27,5 +30,5 @@ for box in $boxes; do
         scp -F ".$box.config" "$@" "$box":
     fi
 
-    ssh -F ."$box".config "$box" /bin/sh "$script" >| "$script-results/$box.log"
+    ssh -F ."$box".config "$box" /bin/sh "$script" >| "$results_dir/$box.csv"
 done

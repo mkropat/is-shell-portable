@@ -1,0 +1,30 @@
+#!/bin/sh
+
+main() {
+    combined=$(mktemp)
+
+    :>|"$combined"
+
+    for f; do
+        filename=$(basename -- "$f")
+        case "$filename" in
+            *.json) varname=${filename%.*} ;;
+            *)      varname=$filename ;;
+        esac
+
+        jq --slurp "{\"$varname\":.}" <"$f" >>"$combined"
+    done
+
+    jq --slurp add <"$combined"
+
+    rm -f -- "$combined"
+}
+
+mktemp() {
+    printf '%s/%s.%s\n' \
+        "${TMPDIR:-${TMP:-/tmp}}" \
+        "${1:-tmp}" \
+        "$(tr -dc 'a-zA-Z0-9' </dev/urandom | head -c 16)"
+}
+
+main "$@"
