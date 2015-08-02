@@ -1,7 +1,7 @@
 [
-  "centos-v7",
-  "freebsd-v10",
-  "openwrt-v12",
-  "solaris-v11",
-  "ubuntu-v14.04"
+  "centos-7",
+  "freebsd-10",
+  "openwrt-12",
+  "solaris-11",
+  "ubuntu-14.04"
 ]
