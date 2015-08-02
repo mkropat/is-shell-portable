@@ -1,6 +1,7 @@
 [
   "centos-7",
   "freebsd-10",
+  "msys",
   "openwrt-12",
   "solaris-11",
   "ubuntu-14.04"

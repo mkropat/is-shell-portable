@@ -4,6 +4,7 @@
       "command": ".",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -12,6 +13,7 @@
       "command": ":",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -20,6 +22,7 @@
       "command": "break",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -28,6 +31,7 @@
       "command": "continue",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -36,6 +40,7 @@
       "command": "eval",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -44,6 +49,7 @@
       "command": "exec",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -52,6 +58,7 @@
       "command": "exit",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -60,6 +67,7 @@
       "command": "export",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -68,6 +76,7 @@
       "command": "readonly",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -76,6 +85,7 @@
       "command": "return",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -84,6 +94,7 @@
       "command": "set",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -92,6 +103,7 @@
       "command": "shift",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -100,6 +112,7 @@
       "command": "times",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "yes",
       "ubuntu-14.04": "built-in"
@@ -108,6 +121,7 @@
       "command": "trap",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -116,6 +130,7 @@
       "command": "unset",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -126,6 +141,7 @@
       "command": "alias",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -134,6 +150,7 @@
       "command": "bc",
       "centos-7": "no",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -142,6 +159,7 @@
       "command": "command",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "yes",
       "ubuntu-14.04": "built-in"
@@ -150,6 +168,7 @@
       "command": "date",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -158,6 +177,7 @@
       "command": "env",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -166,6 +186,7 @@
       "command": "expr",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -174,6 +195,7 @@
       "command": "false",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -182,6 +204,7 @@
       "command": "getopts",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -190,6 +213,7 @@
       "command": "hash",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "yes",
       "ubuntu-14.04": "built-in"
@@ -198,6 +222,7 @@
       "command": "fc",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "no",
       "solaris-11": "yes",
       "ubuntu-14.04": "no"
@@ -206,6 +231,7 @@
       "command": "id",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -214,6 +240,7 @@
       "command": "locale",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -222,6 +249,7 @@
       "command": "localedef",
       "centos-7": "command",
       "freebsd-10": "no",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -230,6 +258,7 @@
       "command": "logger",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -238,6 +267,7 @@
       "command": "logname",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -246,6 +276,7 @@
       "command": "newgrp",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "built-in",
       "ubuntu-14.04": "command"
@@ -254,6 +285,7 @@
       "command": "pathchk",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -262,6 +294,7 @@
       "command": "pwd",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -270,6 +303,7 @@
       "command": "read",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -278,6 +312,7 @@
       "command": "sh",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -286,6 +321,7 @@
       "command": "sleep",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -294,6 +330,7 @@
       "command": "test",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -302,6 +339,7 @@
       "command": "time",
       "centos-7": "built-in",
       "freebsd-10": "command",
+      "msys": "built-in",
       "openwrt-12": "command",
       "solaris-11": "built-in",
       "ubuntu-14.04": "command"
@@ -310,6 +348,7 @@
       "command": "tput",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -318,6 +357,7 @@
       "command": "true",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -326,6 +366,7 @@
       "command": "type",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "yes",
       "ubuntu-14.04": "built-in"
@@ -334,6 +375,7 @@
       "command": "unalias",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -342,6 +384,7 @@
       "command": "uname",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -350,6 +393,7 @@
       "command": "write",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -358,6 +402,7 @@
       "command": "xargs",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -368,6 +413,7 @@
       "command": "awk",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -376,6 +422,7 @@
       "command": "cat",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -384,6 +431,7 @@
       "command": "cksum",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -392,6 +440,7 @@
       "command": "cmp",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -400,6 +449,7 @@
       "command": "comm",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -408,6 +458,7 @@
       "command": "csplit",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -416,6 +467,7 @@
       "command": "cut",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -424,6 +476,7 @@
       "command": "echo",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -432,6 +485,7 @@
       "command": "ed",
       "centos-7": "no",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -440,6 +494,7 @@
       "command": "ex",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -448,6 +503,7 @@
       "command": "expand",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -456,6 +512,7 @@
       "command": "fold",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -464,6 +521,7 @@
       "command": "grep",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -472,6 +530,7 @@
       "command": "head",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -480,6 +539,7 @@
       "command": "join",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -488,6 +548,7 @@
       "command": "more",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -496,6 +557,7 @@
       "command": "nl",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -504,6 +566,7 @@
       "command": "od",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -512,6 +575,7 @@
       "command": "paste",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -520,6 +584,7 @@
       "command": "printf",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -528,6 +593,7 @@
       "command": "sed",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -536,6 +602,7 @@
       "command": "sort",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -544,6 +611,7 @@
       "command": "split",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -552,6 +620,7 @@
       "command": "tail",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -560,6 +629,7 @@
       "command": "tr",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -568,6 +638,7 @@
       "command": "tsort",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -576,6 +647,7 @@
       "command": "unexpand",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -584,6 +656,7 @@
       "command": "uniq",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -592,6 +665,7 @@
       "command": "wc",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -602,6 +676,7 @@
       "command": "basename",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -610,6 +685,7 @@
       "command": "cal",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -618,6 +694,7 @@
       "command": "cd",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -626,6 +703,7 @@
       "command": "chgrp",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -634,6 +712,7 @@
       "command": "chmod",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -642,6 +721,7 @@
       "command": "chown",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -650,6 +730,7 @@
       "command": "cp",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -658,6 +739,7 @@
       "command": "dd",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -666,6 +748,7 @@
       "command": "df",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -674,6 +757,7 @@
       "command": "dirname",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -682,6 +766,7 @@
       "command": "du",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -690,6 +775,7 @@
       "command": "file",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -698,6 +784,7 @@
       "command": "find",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -706,6 +793,7 @@
       "command": "fuser",
       "centos-7": "no",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "no",
       "ubuntu-14.04": "command"
@@ -714,6 +802,7 @@
       "command": "link",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "no",
       "ubuntu-14.04": "command"
@@ -722,6 +811,7 @@
       "command": "ln",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -730,6 +820,7 @@
       "command": "ls",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -738,6 +829,7 @@
       "command": "mkdir",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -746,6 +838,7 @@
       "command": "mkfifo",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -754,6 +847,7 @@
       "command": "mv",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -762,6 +856,7 @@
       "command": "rm",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -770,6 +865,7 @@
       "command": "rmdir",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -778,6 +874,7 @@
       "command": "tee",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -786,6 +883,7 @@
       "command": "touch",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -794,6 +892,7 @@
       "command": "unlink",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "no",
       "ubuntu-14.04": "command"
@@ -804,6 +903,7 @@
       "command": "bg",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -812,6 +912,7 @@
       "command": "fg",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -820,6 +921,7 @@
       "command": "kill",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -828,6 +930,7 @@
       "command": "nice",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -836,6 +939,7 @@
       "command": "nohup",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "yes",
       "ubuntu-14.04": "command"
@@ -844,6 +948,7 @@
       "command": "ps",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -852,6 +957,7 @@
       "command": "renice",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -860,6 +966,7 @@
       "command": "wait",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -870,6 +977,7 @@
       "command": "at",
       "centos-7": "no",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -878,6 +986,7 @@
       "command": "batch",
       "centos-7": "no",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -886,6 +995,7 @@
       "command": "jobs",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -896,6 +1006,7 @@
       "command": "ar",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -904,6 +1015,7 @@
       "command": "asa",
       "centos-7": "no",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "no"
@@ -912,6 +1024,7 @@
       "command": "c99",
       "centos-7": "no",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "no",
       "ubuntu-14.04": "command"
@@ -920,6 +1033,7 @@
       "command": "cflow",
       "centos-7": "no",
       "freebsd-10": "no",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "no",
       "ubuntu-14.04": "no"
@@ -928,6 +1042,7 @@
       "command": "ctags",
       "centos-7": "no",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "no"
@@ -936,6 +1051,7 @@
       "command": "cxref",
       "centos-7": "no",
       "freebsd-10": "no",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "no",
       "ubuntu-14.04": "no"
@@ -944,6 +1060,7 @@
       "command": "diff",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -952,6 +1069,7 @@
       "command": "fort77",
       "centos-7": "no",
       "freebsd-10": "no",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "no",
       "ubuntu-14.04": "no"
@@ -960,6 +1078,7 @@
       "command": "gencat",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "no",
       "ubuntu-14.04": "command"
@@ -968,6 +1087,7 @@
       "command": "iconv",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -976,6 +1096,7 @@
       "command": "lex",
       "centos-7": "no",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "no"
@@ -984,6 +1105,7 @@
       "command": "m4",
       "centos-7": "no",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "no"
@@ -992,6 +1114,7 @@
       "command": "make",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -1000,6 +1123,7 @@
       "command": "man",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -1008,6 +1132,7 @@
       "command": "nm",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -1016,6 +1141,7 @@
       "command": "patch",
       "centos-7": "no",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -1024,6 +1150,7 @@
       "command": "strings",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -1032,6 +1159,7 @@
       "command": "strip",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -1040,6 +1168,7 @@
       "command": "vi",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -1048,6 +1177,7 @@
       "command": "yacc",
       "centos-7": "no",
       "freebsd-10": "command",
+      "msys": "command",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "no"
@@ -1058,6 +1188,7 @@
       "command": "crontab",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -1066,6 +1197,7 @@
       "command": "getconf",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -1074,6 +1206,7 @@
       "command": "ulimit",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -1082,6 +1215,7 @@
       "command": "umask",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
+      "msys": "built-in",
       "openwrt-12": "built-in",
       "solaris-11": "built-in",
       "ubuntu-14.04": "built-in"
@@ -1090,6 +1224,7 @@
       "command": "who",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -1100,6 +1235,7 @@
       "command": "stty",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -1108,6 +1244,7 @@
       "command": "tabs",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -1116,6 +1253,7 @@
       "command": "tty",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -1126,6 +1264,7 @@
       "command": "mailx",
       "centos-7": "no",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "no"
@@ -1134,6 +1273,7 @@
       "command": "mesg",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -1142,6 +1282,7 @@
       "command": "talk",
       "centos-7": "no",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "no"
@@ -1150,6 +1291,7 @@
       "command": "uucp",
       "centos-7": "no",
       "freebsd-10": "no",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "no",
       "ubuntu-14.04": "no"
@@ -1158,6 +1300,7 @@
       "command": "uudecode",
       "centos-7": "no",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "no"
@@ -1166,6 +1309,7 @@
       "command": "uuencode",
       "centos-7": "no",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "no"
@@ -1174,6 +1318,7 @@
       "command": "uustat",
       "centos-7": "no",
       "freebsd-10": "no",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "no",
       "ubuntu-14.04": "no"
@@ -1182,6 +1327,7 @@
       "command": "uux",
       "centos-7": "no",
       "freebsd-10": "no",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "no",
       "ubuntu-14.04": "no"
@@ -1192,6 +1338,7 @@
       "command": "compress",
       "centos-7": "no",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "no"
@@ -1200,6 +1347,7 @@
       "command": "pax",
       "centos-7": "no",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "no"
@@ -1208,6 +1356,7 @@
       "command": "uncompress",
       "centos-7": "no",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
@@ -1216,6 +1365,7 @@
       "command": "zcat",
       "centos-7": "command",
       "freebsd-10": "command",
+      "msys": "no",
       "openwrt-12": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
