@@ -6,39 +6,45 @@ layout: default
 
   <h1 class="page-heading">Available Commands By Platform</h1>
 
-  <table>
-
+  {% for section in site.data.cmd-support %}
+  {% assign section_name = section[0] %}
+  <h4>{{ section_name }}</h4>
+  <table class="portable-support">
     <thead>
       <tr>
-        <th>Command</th>
-        <th colspan="{{ site.data.boxes | size }}"></th>
+        <th></th>
+        {% for box in site.data.boxes %}
+          {% assign box_name = box[0] %}
+          <th class="platform">{{ box_name }}</th>
+        {% endfor %}
       </tr>
     </thead>
 
     <tbody>
-    {% for section in site.data.cmd-support %}
-      <tr>
-        {% assign section_name = section[0] %}
-        <th>{{ section_name }}</th>
-        {% for box in site.data.boxes %}
-          {% assign box_name = box[0] %}
-          <th>{{ box_name }}</th>
-        {% endfor %}
-      </tr>
 
       {% for command in section[1] %}
       <tr>
-        <td>{{ command["command"] }}</td>
+        <td class="command"><tt>{{ command["command"] }}</tt></td>
+
         {% for box in site.data.boxes %}
         {% assign box_name = box[0] %}
-        <td>{{ command[box_name] }}</td>
+
+        {% case command[box_name] %}
+        {% when 'no' %}
+        <td class="unsupported">
+        {% else %}
+        <td class="supported">
+        {% endcase %}
+
+          {{ command[box_name] }}
+
+        </td>
+
         {% endfor %}
       </tr>
       {% endfor %}
 
-    {% endfor %}
     </tbody>
-
   </table>
-
+  {% endfor %}
 </div>

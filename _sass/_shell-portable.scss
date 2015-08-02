@@ -1,0 +1,43 @@
+body {
+    //background-color: #FF9F6C;
+}
+
+$light-text: #fffcfc;
+
+$supported-color: #3A9114;
+$unsupported-color: #FF0500;
+
+h4 {
+    margin: 40px 0 10px 40px;
+    font-size: 16pt;
+}
+
+table.portable-support {
+    td.command {
+        text-align: right;
+        padding-right: 10px;
+        font-size: 110%;
+        width: 110px;
+        padding-right: 10px;
+    }
+
+    th {
+        padding-bottom: 10px;
+    }
+
+    td {
+        text-align: center;
+        padding: 4px 0;
+        width: 150px;
+    }
+
+    td.supported {
+        color: $light-text;
+        background-color: $supported-color;
+    }
+
+    td.unsupported {
+        color: $light-text;
+        background-color: $unsupported-color;
+    }
+}
