@@ -18,7 +18,7 @@ platform that is still in widespread use.
 Once you decide that you are no longer limited to POSIX commands, you've got a new problem:
 finding out what commands are actually available on your target platforms.  That's the problem I'm
 hoping to tackle with this site.  I want to help re-define what "portable shell" means.  I want to
-create an automated survey of what actually ports across differnet platforms.  When I do web
+create an automated survey of what actually ports across different platforms.  When I do web
 development I have access to [caniuse.com](http://caniuse.com/).  Why isn't there a portable
 shell version of that site?
 
