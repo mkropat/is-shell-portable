@@ -3,6 +3,7 @@
   "freebsd-10",
   "msys",
   "openwrt-12",
+  "osx-10",
   "solaris-11",
   "ubuntu-14.04"
 ]

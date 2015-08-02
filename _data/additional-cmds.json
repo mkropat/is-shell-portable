@@ -6,6 +6,7 @@
       "freebsd-10": "built-in",
       "msys": "built-in",
       "openwrt-12": "built-in",
+      "osx-10": "built-in",
       "solaris-11": "no",
       "ubuntu-14.04": "built-in"
     }
@@ -17,6 +18,7 @@
       "freebsd-10": "no",
       "msys": "no",
       "openwrt-12": "command",
+      "osx-10": "no",
       "solaris-11": "no",
       "ubuntu-14.04": "no"
     },
@@ -26,6 +28,7 @@
       "freebsd-10": "command",
       "msys": "command",
       "openwrt-12": "command",
+      "osx-10": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
     },
@@ -35,6 +38,7 @@
       "freebsd-10": "command",
       "msys": "no",
       "openwrt-12": "no",
+      "osx-10": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "no"
     },
@@ -44,6 +48,7 @@
       "freebsd-10": "no",
       "msys": "no",
       "openwrt-12": "no",
+      "osx-10": "no",
       "solaris-11": "no",
       "ubuntu-14.04": "command"
     },
@@ -53,6 +58,7 @@
       "freebsd-10": "no",
       "msys": "no",
       "openwrt-12": "no",
+      "osx-10": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "no"
     },
@@ -62,6 +68,7 @@
       "freebsd-10": "no",
       "msys": "no",
       "openwrt-12": "no",
+      "osx-10": "no",
       "solaris-11": "command",
       "ubuntu-14.04": "no"
     },
@@ -71,6 +78,7 @@
       "freebsd-10": "command",
       "msys": "no",
       "openwrt-12": "no",
+      "osx-10": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "no"
     },
@@ -80,6 +88,7 @@
       "freebsd-10": "no",
       "msys": "no",
       "openwrt-12": "no",
+      "osx-10": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "no"
     }
@@ -91,6 +100,7 @@
       "freebsd-10": "command",
       "msys": "command",
       "openwrt-12": "no",
+      "osx-10": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
     },
@@ -100,6 +110,7 @@
       "freebsd-10": "no",
       "msys": "command",
       "openwrt-12": "no",
+      "osx-10": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
     },
@@ -109,6 +120,7 @@
       "freebsd-10": "command",
       "msys": "no",
       "openwrt-12": "no",
+      "osx-10": "no",
       "solaris-11": "no",
       "ubuntu-14.04": "command"
     },
@@ -118,6 +130,7 @@
       "freebsd-10": "no",
       "msys": "no",
       "openwrt-12": "no",
+      "osx-10": "no",
       "solaris-11": "no",
       "ubuntu-14.04": "command"
     },
@@ -127,6 +140,7 @@
       "freebsd-10": "no",
       "msys": "command",
       "openwrt-12": "no",
+      "osx-10": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
     }
@@ -138,6 +152,7 @@
       "freebsd-10": "command",
       "msys": "no",
       "openwrt-12": "command",
+      "osx-10": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
     },
@@ -147,6 +162,7 @@
       "freebsd-10": "command",
       "msys": "no",
       "openwrt-12": "no",
+      "osx-10": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
     }
