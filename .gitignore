@@ -1,4 +1,3 @@
 .*.config
 .vagrant/
-cmds.txt
 caniuse.sh-results/
