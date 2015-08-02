@@ -1,5 +1,7 @@
 #!/bin/sh
 
+output_dir="gh-pages/_data"
+
 jq -r 'flatten[]' cmds.json >|cmds.txt
 dos2unix cmds.txt
 
@@ -15,15 +17,17 @@ rm -f -- cmds.txt
         .value |= from_entries)' \
     >|lookup.json
 
-jq  --slurpfile boxes boxes.json \
+jq keys <lookup.json >| "$output_dir/platforms.json"
+
+jq  --slurpfile platforms "$output_dir/platforms.json" \
     --slurpfile lookup lookup.json \
     'with_entries(
         .value[] |= . as $val |
             [{ command:. }] + [
-                [$boxes[0] | keys[] | {key:., value:$lookup[0][.][$val]}] | from_entries
+                [$platforms[0][] | {key:., value:$lookup[0][.][$val]}] | from_entries
             ] |
             add
     )' \
-    cmds.json >|gh-pages/_data/cmd-support.json
+    cmds.json >|"$output_dir/cmd-support.json"
 
 rm -f -- lookup.json
