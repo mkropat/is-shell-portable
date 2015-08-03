@@ -36,6 +36,8 @@ layout: default
         {% case command[platform] %}
         {% when 'no' %}
         <td class="unsupported">
+        {% when null %}
+        <td class="missing">
         {% else %}
         <td class="supported">
         {% endcase %}
