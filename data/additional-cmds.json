@@ -1,7 +1,14 @@
 {
   "Built-in": [
-    "local"
+    "declare",
+    "function",
+    "local",
+    "popd",
+    "pushd",
+    "shopt",
+    "typeset"
   ],
+
   "Shell": [
     "ash",
     "bash",
@@ -12,6 +19,7 @@
     "tcsh",
     "zsh"
   ],
+
   "Scripting Language": [
     "perl",
     "python",
@@ -19,8 +27,87 @@
     "python3",
     "ruby"
   ],
-  "Misc": [
+
+  "Programming": [
+    "seq",
+    "units",
+    "yes"
+  ],
+
+  "Text": [
+    "less"
+  ],
+
+  "Files": [
+    "chroot",
+    "cksum",
+    "locate",
+    "lsof",
     "mktemp",
-    "stat"
+    "mount",
+    "stat",
+    "sum",
+    "sync",
+    "tar",
+    "umount",
+    "whereis",
+    "which"
+  ],
+
+  "Processes": [
+    "killall",
+    "pgrep",
+    "pkill"
+  ],
+
+  "Development": [
+    "git"
+  ],
+
+  "Admin": [
+    "dmesg",
+    "free",
+    "reboot",
+    "shutdown",
+    "su",
+    "sudo",
+    "uptime"
+  ],
+
+  "Terminal": [
+    "clear",
+    "screen",
+    "tmux"
+  ],
+
+  "Network": [
+    "curl",
+    "dig",
+    "hostname",
+    "ifconfig",
+    "mtr",
+    "nc",
+    "netstat",
+    "nslookup",
+    "ping",
+    "rsync",
+    "scp",
+    "ssh",
+    "wget"
+  ],
+
+  "Compression": [
+    "bzip2",
+    "gzip",
+    "zip"
+  ],
+
+  "Misc": [
+    "history",
+    "logout",
+    "openssl",
+    "watch",
+    "whoami",
+    "xdg-open"
   ]
 }
