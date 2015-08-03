@@ -1,6 +1,26 @@
 {
   "Built-in": [
     {
+      "command": "declare",
+      "centos-7": "built-in",
+      "freebsd-10": "no",
+      "msys": "built-in",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "no",
+      "ubuntu-14.04": "no"
+    },
+    {
+      "command": "function",
+      "centos-7": "built-in",
+      "freebsd-10": "no",
+      "msys": "built-in",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "built-in",
+      "ubuntu-14.04": "no"
+    },
+    {
       "command": "local",
       "centos-7": "built-in",
       "freebsd-10": "built-in",
@@ -9,6 +29,46 @@
       "osx-10": "built-in",
       "solaris-11": "no",
       "ubuntu-14.04": "built-in"
+    },
+    {
+      "command": "popd",
+      "centos-7": "built-in",
+      "freebsd-10": "no",
+      "msys": "built-in",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "no",
+      "ubuntu-14.04": "no"
+    },
+    {
+      "command": "pushd",
+      "centos-7": "built-in",
+      "freebsd-10": "no",
+      "msys": "built-in",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "no",
+      "ubuntu-14.04": "no"
+    },
+    {
+      "command": "shopt",
+      "centos-7": "built-in",
+      "freebsd-10": "no",
+      "msys": "built-in",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "no",
+      "ubuntu-14.04": "no"
+    },
+    {
+      "command": "typeset",
+      "centos-7": "built-in",
+      "freebsd-10": "no",
+      "msys": "built-in",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "built-in",
+      "ubuntu-14.04": "no"
     }
   ],
   "Shell": [
@@ -145,7 +205,91 @@
       "ubuntu-14.04": "command"
     }
   ],
-  "Misc": [
+  "Programming": [
+    {
+      "command": "seq",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "no",
+      "openwrt-12": "command",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "units",
+      "centos-7": "no",
+      "freebsd-10": "command",
+      "msys": "no",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "no"
+    },
+    {
+      "command": "yes",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "no",
+      "openwrt-12": "command",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    }
+  ],
+  "Text": [
+    {
+      "command": "less",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "command",
+      "openwrt-12": "command",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    }
+  ],
+  "Files": [
+    {
+      "command": "chroot",
+      "centos-7": "no",
+      "freebsd-10": "command",
+      "msys": "no",
+      "openwrt-12": "command",
+      "osx-10": null,
+      "solaris-11": "no",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "cksum",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "no",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "locate",
+      "centos-7": "no",
+      "freebsd-10": "command",
+      "msys": "no",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "lsof",
+      "centos-7": "no",
+      "freebsd-10": "no",
+      "msys": "no",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "no",
+      "ubuntu-14.04": "command"
+    },
     {
       "command": "mktemp",
       "centos-7": "command",
@@ -157,6 +301,16 @@
       "ubuntu-14.04": "command"
     },
     {
+      "command": "mount",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "no",
+      "openwrt-12": "command",
+      "osx-10": null,
+      "solaris-11": "no",
+      "ubuntu-14.04": "command"
+    },
+    {
       "command": "stat",
       "centos-7": "command",
       "freebsd-10": "command",
@@ -165,6 +319,440 @@
       "osx-10": "command",
       "solaris-11": "command",
       "ubuntu-14.04": "command"
+    },
+    {
+      "command": "sum",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "no",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "sync",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "no",
+      "openwrt-12": "command",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "tar",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "command",
+      "openwrt-12": "command",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "umount",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "no",
+      "openwrt-12": "command",
+      "osx-10": null,
+      "solaris-11": "no",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "whereis",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "no",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "no",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "which",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "command",
+      "openwrt-12": "command",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    }
+  ],
+  "Processes": [
+    {
+      "command": "killall",
+      "centos-7": "no",
+      "freebsd-10": "command",
+      "msys": "no",
+      "openwrt-12": "command",
+      "osx-10": null,
+      "solaris-11": "no",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "pgrep",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "no",
+      "openwrt-12": "command",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "pkill",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "no",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    }
+  ],
+  "Development": [
+    {
+      "command": "git",
+      "centos-7": "no",
+      "freebsd-10": "no",
+      "msys": "command",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "no"
+    }
+  ],
+  "Admin": [
+    {
+      "command": "dmesg",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "no",
+      "openwrt-12": "command",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "free",
+      "centos-7": "command",
+      "freebsd-10": "no",
+      "msys": "no",
+      "openwrt-12": "command",
+      "osx-10": null,
+      "solaris-11": "no",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "reboot",
+      "centos-7": "no",
+      "freebsd-10": "command",
+      "msys": "no",
+      "openwrt-12": "command",
+      "osx-10": null,
+      "solaris-11": "no",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "shutdown",
+      "centos-7": "no",
+      "freebsd-10": "command",
+      "msys": "no",
+      "openwrt-12": "command",
+      "osx-10": null,
+      "solaris-11": "no",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "su",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "no",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "sudo",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "no",
+      "openwrt-12": "command",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "uptime",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "no",
+      "openwrt-12": "command",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    }
+  ],
+  "Terminal": [
+    {
+      "command": "clear",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "command",
+      "openwrt-12": "command",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "screen",
+      "centos-7": "no",
+      "freebsd-10": "no",
+      "msys": "no",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "tmux",
+      "centos-7": "no",
+      "freebsd-10": "no",
+      "msys": "no",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "no",
+      "ubuntu-14.04": "command"
+    }
+  ],
+  "Network": [
+    {
+      "command": "curl",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "command",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "dig",
+      "centos-7": "no",
+      "freebsd-10": "no",
+      "msys": "no",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "no",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "hostname",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "no",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "ifconfig",
+      "centos-7": "no",
+      "freebsd-10": "command",
+      "msys": "no",
+      "openwrt-12": "command",
+      "osx-10": null,
+      "solaris-11": "no",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "mtr",
+      "centos-7": "no",
+      "freebsd-10": "no",
+      "msys": "no",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "no",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "nc",
+      "centos-7": "no",
+      "freebsd-10": "command",
+      "msys": "no",
+      "openwrt-12": "command",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "netstat",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "no",
+      "openwrt-12": "command",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "nslookup",
+      "centos-7": "no",
+      "freebsd-10": "no",
+      "msys": "no",
+      "openwrt-12": "command",
+      "osx-10": null,
+      "solaris-11": "no",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "ping",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "no",
+      "openwrt-12": "command",
+      "osx-10": null,
+      "solaris-11": "no",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "rsync",
+      "centos-7": "no",
+      "freebsd-10": "no",
+      "msys": "no",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "scp",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "command",
+      "openwrt-12": "command",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "ssh",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "command",
+      "openwrt-12": "command",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "wget",
+      "centos-7": "command",
+      "freebsd-10": "no",
+      "msys": "no",
+      "openwrt-12": "command",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    }
+  ],
+  "Compression": [
+    {
+      "command": "bzip2",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "command",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "gzip",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "command",
+      "openwrt-12": "command",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "zip",
+      "centos-7": "no",
+      "freebsd-10": "no",
+      "msys": "no",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "no"
+    }
+  ],
+  "Misc": [
+    {
+      "command": "history",
+      "centos-7": "built-in",
+      "freebsd-10": "no",
+      "msys": "built-in",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "yes",
+      "ubuntu-14.04": "no"
+    },
+    {
+      "command": "logout",
+      "centos-7": "built-in",
+      "freebsd-10": "no",
+      "msys": "built-in",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "no",
+      "ubuntu-14.04": "no"
+    },
+    {
+      "command": "openssl",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "command",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "watch",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "no",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "no",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "whoami",
+      "centos-7": "command",
+      "freebsd-10": "command",
+      "msys": "no",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "command"
+    },
+    {
+      "command": "xdg-open",
+      "centos-7": "no",
+      "freebsd-10": "no",
+      "msys": "no",
+      "openwrt-12": "no",
+      "osx-10": null,
+      "solaris-11": "command",
+      "ubuntu-14.04": "no"
     }
   ]
 }
