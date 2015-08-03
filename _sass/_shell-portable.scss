@@ -46,4 +46,8 @@ table.portable-support {
         color: $light-text;
         background-color: $unsupported-color;
     }
+
+    td.missing {
+        background-color: #888;
+    }
 }
