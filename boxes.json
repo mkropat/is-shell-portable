@@ -1,6 +1,6 @@
 {
   "centos-7":      { "image": "chef/centos-7.0" },
-  "freebsd-10":    { "image": "chef/freebsd-10.0" },
+  "freebsd-10":    { "image": "freebsd/FreeBSD-10.2-RC3" },
   "openwrt-12":    { "image": "hryamzik/openwrt.12.09.1" },
   "solaris-11":    { "image": "http://www.benden.us/vagrant/solaris-11.2.box" },
   "ubuntu-14.04":  { "image": "ubuntu/trusty64" }
